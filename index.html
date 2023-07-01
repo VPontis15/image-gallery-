@@ -47,20 +47,22 @@
           </ul>
         </nav>
         <!-- Search bar and Upload BTN container -->
-        <div class="flex justify-between mb-12">
+        <div class="flex flex-col gap-12 md:flex-row justify-between mb-12">
           <div class="flex items-center">
             <input
-              class="border border-gray-200 rounded-md p-1"
+              class="border flex-1 border-gray-200 rounded-md p-3 md:p-1"
               type="text"
               name=""
               id=""
               placeholder="Search"
             />
-            <img
-              class="text-sm w-10 max-w-full"
-              src="images/search.svg"
-              alt=""
-            />
+            <button>
+              <img
+                class="text-sm w-10 max-w-full"
+                src="images/search.svg"
+                alt=""
+              />
+            </button>
           </div>
           <button class="bg-black text-white rounded-lg px-12 py-4">
             Upload
