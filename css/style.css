@@ -871,6 +871,10 @@ video {
   text-decoration-color: #fb923c;
 }
 
+.decoration-blue-400 {
+  text-decoration-color: #60a5fa;
+}
+
 .underline-offset-4 {
   text-underline-offset: 4px;
 }
