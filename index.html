@@ -7,5 +7,39 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Image Gallery</title>
   </head>
-  <body></body>
+  <body>
+    <!-- Container  -->
+    <div class="grid place-items-center min-h-screen max-w-5xl mx-auto">
+      <!-- navigation -->
+      <header class="flex flex-col w-full justify-end">
+        <nav class="ml-auto mb-24">
+          <ul class="flex gap-8">
+            <li><a href="">Vector</a></li>
+            <li><a href="">Illustrations</a></li>
+            <li><a href="">Images</a></li>
+            <li><a href="">Icons</a></li>
+          </ul>
+        </nav>
+        <div class="flex justify-between">
+          <div class="flex">
+            <input
+              class="border border-gray-200 rounded-md"
+              type="text"
+              name=""
+              id=""
+              placeholder="Search"
+            />
+            <img
+              class="text-sm w-10 max-w-full"
+              src="images/search.svg"
+              alt=""
+            />
+          </div>
+          <button class="bg-black text-white rounded-lg px-12 py-4">
+            Upload
+          </button>
+        </div>
+      </header>
+    </div>
+  </body>
 </html>
